@@ -1,0 +1,47 @@
+/* Reset básico */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center; /* Centraliza todo o conteúdo */
+}
+
+/* Container centralizado */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+/* Imagem Central */
+.image-container img {
+  max-width: 200px; /* Ajuste o tamanho máximo */
+  height: auto;     /* Mantém a proporção da imagem */
+  margin-bottom: 20px; /* Espaço entre a imagem e o texto */
+  border-radius: 10px; /* Bordas arredondadas (opcional) */
+}
+
+/* Título e subtítulo */
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Rodapé */
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.9em;
+  color: #777;
+}
